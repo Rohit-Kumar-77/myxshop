@@ -1,0 +1,50 @@
+#Product{
+
+    padding-top: 70px;
+
+}
+
+.productSection{
+
+    /* height: 90vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+
+.head1{
+
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+
+}
+
+.productSection div{
+    margin-right: 50px;
+}
+
+.productSection div h2{
+
+    font-size: 1.3em;
+
+}
+.productSection div p{
+
+    font-size: 0.9em;
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .productSection div{
+        margin-right: 0px;
+        margin-top: 30px;
+
+    }
+    
+}

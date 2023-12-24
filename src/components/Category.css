@@ -1,0 +1,51 @@
+#Category{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+
+
+.categorySection{
+
+    /* height: 90vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.head1{
+
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.categorySection div{
+    margin-right: 50px;
+}
+
+.categorySection div h2{
+
+    font-size: 1.3em;
+
+}
+.categorySection div p{
+
+    font-size: 0.9em;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+    .categorySection div{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+}

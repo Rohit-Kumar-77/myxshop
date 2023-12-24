@@ -1,0 +1,55 @@
+.heroSection{
+    height: 100vh;
+    padding: 0px 10%;
+    background-color:  hsl(220, 18%, 78%);
+
+    /* gap: 100px; */
+}
+img{
+    width: 300px;
+    animation: anime 3s ease-in-out;
+}
+
+.content{
+
+    width: 350px;
+
+}
+
+.content p{
+    width: 90%;
+}
+
+.content h1{
+    width: 100%;
+}
+
+@keyframes anime {
+
+    0%{
+        transform: scale(0);
+        transform: translateX(300px);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+@media only screen and (min-width:1200px) {
+
+    
+}
+
+@media only screen and (max-width:670px) {
+
+    .heroSection{
+        height: 120vh;
+    padding-top: 100px;
+    }
+
+  
+}
